@@ -1,0 +1,59 @@
+@import "bootstrap/scss/bootstrap";
+
+
+body {
+  background-color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+li {
+  list-style-type: none;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin-top: 20px;
+
+}
+
+// .col-4 {
+//   // display: flex;
+// }
+
+.flat-card {
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 2px rgb(190, 188, 188);
+  // padding: 20px;
+}
+
+.content-card {
+  padding: 20px;
+}
+
+.col-4 {
+  margin-bottom: 20px;
+}
+
+.navbar {
+  padding: 20px;
+}
+
+.navbar-brand {
+  padding: 10px;
+  font-size: xx-large;
+}
+
+.bg-light {
+    background-color: #e8edf1 !important;
+}
+
+.button-card {
+  background-color: #e8edf1 ;
+  padding: 20px;
+}
